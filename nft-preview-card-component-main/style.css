@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%)
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card-nft {
+    position: absolute;
+    padding: 1.2rem;
+    background-color: hsl(216, 50%, 16%);
+    flex-direction: column;
+    border-radius: 15px;
+    height: 500px;
+    width: 270px;
+    box-shadow:0px 0px 10px 0px rgb(15, 17, 20);
+    transition: 0.5s;
+}
+
+.card-nft:hover {
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(-20px);
+}
+
+.img-nft {
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    height: 55%;
+    width: 100%;
+    cursor: pointer;
+}
+
+h3 {
+    font-size:16px;
+    padding:1rem 0;
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+
+}
+
+.description {
+    padding:1rem 0;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 0;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.price-nft {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.price-nft img {
+    height: 12px;
+    width: 8px;
+}
+
+.price-nft span {
+    color: hsl(178, 100%, 50%);
+    padding-left: .3rem;
+}
+
+hr {
+    border-color: hsl(215, 32%, 27%);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding:1rem 0;
+}
+
+.footer p {
+    color: hsl(215, 51%, 70%);
+    margin-left: 1rem;
+
+}
+
+.footer img {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    
+}
+
+.footer span {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    
+}
